@@ -1,14 +1,14 @@
-let births = 0
-let deaths = 0
-let covid = 0
-let trees = 0
-let carbondioxide = 0
-let google = 0
-let ytmins = 0
-let ythours = 0
+let births = 0;
+let deaths = 0;
+let covid = 0;
+let trees = 0;
+let carbondioxide = 0;
+let google = 0;
+let ytmins = 0;
+let ythours = 0;
 setInterval(birthFunction,225.080);
-setInterval(deathFunction,539.957)
-setInterval(populationFunction,500)
+setInterval(deathFunction,539.957);
+setInterval(populationFunction,500);
 setInterval(covidFunction,224.0372);
 setInterval(treesFunction,9.010);
 setInterval(carbondioxideFunction,10.014);
@@ -35,7 +35,7 @@ function treesFunction() {
     trees++
 }
 function carbondioxideFunction() {
-    document.getElementById("carbondioxideHeader").innerHTML = carbondioxide + " metic tons"
+    document.getElementById("carbondioxideHeader").innerHTML = carbondioxide + " metric tons"
     carbondioxide+=10
 }
 function googleFunction() {
